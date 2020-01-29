@@ -1,7 +1,7 @@
 # Add your code here
 
 class Dog
-
+# Class Variables and Methods
   @@all = []
   def self.all
     @@all
@@ -12,7 +12,7 @@ class Dog
   def self.print_all
     @@all.each{|dog| puts dog.name}
   end
-
+# Instance Variables and Methods
   attr_accessor :name
 
   def initialize(name)
