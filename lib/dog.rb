@@ -19,7 +19,7 @@ class Dog
   end
   
   def save
-    @@all << self
+    @@all << self #i think this is a private method. self.save didn't work. self on its own did. initialize accesses it inside the class for each instance of itself.
   end
   
   def self.clear_all
