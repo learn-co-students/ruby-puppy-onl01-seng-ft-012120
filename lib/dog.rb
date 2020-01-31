@@ -8,7 +8,7 @@ class Dog
   def initialize (name) #initialize with one arguement name
     @name = name
     save #save is called inside initialize 
-    #@@all << self # return all dogs (don't need this line,but why?)
+    #@@all << self # return all dogs - ref save method
   end
  
   def self.all #method all, returns each dog's name
